@@ -1,0 +1,28 @@
+CAMERA_INDEX = 0
+CAMERA_WIDTH = 640
+CAMERA_HEIGHT = 480
+CAMERA_FPS = 60
+
+MODEL_PATH = "models/hand_landmarker.task"
+MODEL_URL = "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task"
+
+NUM_HANDS = 2
+MIN_DETECTION_CONFIDENCE = 0.75
+MIN_PRESENCE_CONFIDENCE = 0.75
+MIN_TRACKING_CONFIDENCE = 0.6
+
+WINDOW_NAME = "AR Hand Tracking"
+
+SKEL_COLOR = (255, 255, 255)
+SKEL_GLOW = (160, 140, 90)
+SKEL_WIDTH = 1
+SKEL_GLOW_WIDTH = 5
+SKEL_DOT_RADIUS = 3
+SKEL_TIP_RADIUS = 4
+SKEL_ALPHA = 0.95
+SKEL_PINCH_COLOR = (200, 200, 200)
+
+PIP_ENABLED = True
+PIP_SCALE = 0.22
+PIP_MARGIN = 10
+PIP_BORDER = (60, 60, 60)
